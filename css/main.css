@@ -407,8 +407,6 @@ pre {
 
 .container {
   width: 100%;
-  padding-right: 10px;
-  padding-left: 10px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
@@ -7532,7 +7530,8 @@ a.text-offset-greyish:hover, a.text-offset-greyish:focus {
     font-family: 'Nunito Sans', sans-serif;
     letter-spacing: 0px;
     font-size: 13px;
-    color: #666666; }
+    color: #666666;
+    font-weight: 600; }
 
 /* Старые новости (удаленный код в html) */
 
@@ -8533,12 +8532,12 @@ body {
   }
 
   .butn-menu {
-    font-size: 2.8vmin;
+    font-size: 3.4vmin;
   }
 
   .multi-button {
     height: 40px;
-    width: 400px;
+    width: 380px;
   }
 }
 
@@ -8581,8 +8580,8 @@ border-radius: 10px;}
   }
 
   .video_media {
-    width: 200px;
-    margin-left: 65px;
+    width: 300px;
+    margin-left: 10px;
   }
 
   .titlevisual {
@@ -8590,6 +8589,7 @@ border-radius: 10px;}
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 20px;
+    top: 50px;
   }
 
   .buttlogo {
@@ -8622,9 +8622,98 @@ border-radius: 10px;}
 
 .flow {width: 600px;}
 
+.left150 {
+  position: relative;
+  left: 150px;
+}
 
+@media (max-width: 500px) {
+  .inner {
+    width: 390px !important;
+    padding: 0px 0px !important;
+  }
+  .left150 {
+    left: 0px !important;
+  }
+  .flow {
+    width: 215px !important;
+  }
+  .rank {
+    position: relative;
+    top: 20px
+  }
+  .name.dark {
+    font-size: 20px !important;
+  }
+  .designation.dark {
+    font-size: 1rem !important;
+  }
+  .ag-courses-item_title {
+    font-size: 30px !important;
+  }
+  .ag-courses_item {
+    margin: 0 25px 30px;
+  }
+  .row {
+    display: ruby !important;
+  }
+  .contAdapt {
+    right: 100px;
+  }
+  .titlead {
+    font-size: 25px !important;
+  }
+  .multibut {
+    bottom: 50px;
+    left: 30px;
+  }
+}
 
+@media (max-width: 375px) {
+  .titlevisual {
+    left: 20px;
+  }
+}
 
+@media (max-width: 500px) {
+  .pt-7, py-7 {
+    padding-top: 20px !important;
+  }
+  .communAd {
+    bottom: 25px;
+    right: 15px;
+  }
+  .qr {
+    display: none;
+  }
+  .helpAd {
+    left: 10px;
+  }
+  .c-footer ul a {
+    font-size: 18px;
+  }
+  .c-footer h4 {
+    font-size: 19px;
+  }
+  .repoAd {
+    left: 22px;
+  }
+  .CopyAd {
+    display: none;
+  }
+}
+
+.YouTuAd {
+  fill: #000000;
+}
+
+.HeadSnap {
+  font-weight: 600;
+}
+
+.SocialHead {
+  font-weight: 600;
+}
 
 
 
