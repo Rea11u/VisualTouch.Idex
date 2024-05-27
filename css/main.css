@@ -8186,6 +8186,8 @@ a:link,a:active,a:visited,a:hover{
 }
 .review.dark p{
 	color: #0e0e0e;
+  position: relative;
+  bottom: 10px;
 }
 .attribution
 {
@@ -8640,7 +8642,7 @@ border-radius: 10px;}
   }
   .rank {
     position: relative;
-    top: 20px
+    top: 15px
   }
   .name.dark {
     font-size: 20px !important;
