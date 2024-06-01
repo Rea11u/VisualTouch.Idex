@@ -8719,7 +8719,14 @@ border-radius: 10px;}
   font-weight: 600;
 }
 
-
+@media (max-width: 500px) {
+  .container1 {
+   display: none;
+  }
+  .sliderhead {
+    display: none;
+  }
+}
 
 
 
@@ -9180,7 +9187,7 @@ input[type="radio"] {
   position: relative;
   margin: 0 auto;
   padding: 3em;
-  width: 1000px;
+  width: 1250px;
   height: 80%;
   border-radius: 20px;
   box-shadow: 0px 8px 9px 0px rgb(53, 53, 53);
@@ -9214,19 +9221,19 @@ input[type="radio"] {
 /* backgrounds */
 
 .slide-1 {
-  background-image: url("https://images.pexels.com/photos/1562/italian-landscape-mountains-nature.jpg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-image: url("");
 }
 
 .slide-2 {
-  background-image: url("https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-image: url("");
 }
 
 .slide-3 {
-  background-image: url("https://images.pexels.com/photos/448714/pexels-photo-448714.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-image: url("");
 }
 
 .slide-4 {
-  background-image: url("https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-image: url("");
 }
 
 /*===================
