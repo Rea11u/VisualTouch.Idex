@@ -9012,7 +9012,7 @@ nav.social {
 		box-sizing: border-box;
 		padding: 10px 30px;
 		background-color: #EEE;
-    box-shadow: 0px 0px 15px #000000;
+    box-shadow: 0px 0px 15px #0c00ff;
 	}
 }
 
@@ -9032,7 +9032,7 @@ nav.social {
 			width: 100%;
 			height: auto;
 			display: block;
-      box-shadow: 0px 0px 20px #000000;
+      box-shadow: 0px 0px 20px #0c00ff;
 		}
 
 		.overlay {
